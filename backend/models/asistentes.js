@@ -6,8 +6,8 @@ var Schema=mongoose.Schema;
 //Configuración del esquema, propiedades del objeto de la bbdd
 var asistentesSchema=Schema({
     nombre:String,
-    apellidos:String,
     confirmacion:String,
+    bus:String,
     alergias:String,
     comentarios:String
 

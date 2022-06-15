@@ -11,8 +11,8 @@ var controller={
         //Primero se validan los datos, que no estén vacíos
         try{
             var validate_nombre=!validator.isEmpty(params.nombre);
-            var validate_apellidos=!validator.isEmpty(params.apellidos);
             var validate_confirmacion=!validator.isEmpty(params.confirmacion);
+            var validate_bus=!validator.isEmpty(params.bus);
             var validate_alergias=!validator.isEmpty(params.alergias);
             var validate_comentarios=!validator.isEmpty(params.comentarios);
 
@@ -22,11 +22,11 @@ var controller={
                 message:'Faltan datos por enviar'
             });
         }
-        if(validate_nombre && validate_apellidos && validate_confirmacion && validate_alergias && validate_comentarios){
+        if(validate_nombre && validate_bus && validate_confirmacion && validate_alergias && validate_comentarios){
             var datosInvitados=new asistentesModelo();
             datosInvitados.nombre=params.nombre;
-            datosInvitados.apellidos=params.apellidos;
             datosInvitados.confirmacion=params.confirmacion;
+            datosInvitados.bus=params.bus;
             datosInvitados.alergias=params.alergias;
             datosInvitados.comentarios=params.comentarios;
 
@@ -77,10 +77,9 @@ var controller={
     //Ver todos los asistentes
     getAsistentes:(req,res)=>{
         var buscarNombre=req.params.nombre;
-        var buscarApellido=req.params.apellidos;
 
         asistentesModelo.find(
-            {"nombre":buscarNombre, "apellidos":buscarApellido},
+            {"nombre":buscarNombre},
         ).sort()
         .exec((err,resultados2)=>{
             if(err){

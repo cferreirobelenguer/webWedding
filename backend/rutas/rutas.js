@@ -7,6 +7,6 @@ var router=express.Router();
 
 router.post('/save',asistentesController.save);
 router.delete('/delete/:id',asistentesController.delete);
-router.get('/ver/:nombre&:apellidos', asistentesController.getAsistentes);
+router.get('/ver/:nombre', asistentesController.getAsistentes);
 
 module.exports=router;
