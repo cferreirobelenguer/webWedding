@@ -1,3 +1,4 @@
+<!--Component wedding date-->
 <template>
   <div class="fecha" id="fecha">
     <br />
@@ -15,7 +16,7 @@
           d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
         /></svg
       ><br/><br/>
-      <h4>Empieza la mejor historia jamás escrita: la nuestra</h4>
+      <h5>Empieza la mejor historia jamás escrita: la nuestra</h5>
       <br/><svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"
@@ -31,10 +32,10 @@
       </svg>
     </div>
     <br/>
-    <h1>{{ msgFecha }}</h1>
+    <h5>{{ msgFecha }}</h5>
     <br/>
     <div class="calculoFecha">
-        <h4>{{calcularFecha()}}</h4>
+        <h5>{{calcularFecha()}}</h5>
     </div>
     <br>
   </div>
@@ -68,10 +69,10 @@ export default {
                 fechaBoda=days+"  días   "+hours+"   horas   "+minutes+"   minutos   "+seconds+"   segundos   ";
                 console.log(fechaBoda)
                 return fechaBoda;
-        }
-    }
+          }
+      }
     
                 
-            };
+    };
 
 </script>

@@ -2,11 +2,10 @@
 <template>
   <div class='contenidoNavegacion'>
   <nav><ul>
-        <li><a href="#nosotros">Nosotros</a></li>
-        <li><a href="#historia">Historia</a></li>
+        <li><a href="#asistencia">Asistencia</a></li>
         <li><a href="#fecha">Fecha</a></li>
         <li><a href="#evento">Evento</a></li>
-        <li><a href="#asistencia">Asistencia</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
     </ul></nav>
   </div>
   <div class='contenidoNavResponsive'>
@@ -17,11 +16,10 @@
                 </svg>
             <nav>
             <ul>
-                <li><a href="#nosotros">Nosotros</a></li>
-                <li><a href="#historia">Historia</a></li>
+                <li><a href="#asistencia">Asistencia</a></li>
                 <li><a href="#fecha">Fecha</a></li>
                 <li><a href="#evento">Evento</a></li>
-                <li><a href="#asistencia">Asistencia</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
             </ul>
             </nav>
   </div>

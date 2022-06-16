@@ -4,6 +4,9 @@
     <HomePage msg="Alejandra" msg2=" y Alejandro"></HomePage>
     <FechaBoda msgFecha="Faltan..."></FechaBoda>
     <NosotrosHistoria></NosotrosHistoria>
+    <LugarEvento></LugarEvento>
+    <FormularioAsistencia></FormularioAsistencia>
+    <FooterWeb></FooterWeb>
   </div>
 </template>
 
@@ -11,13 +14,19 @@
 import HomePage from "./components/HomePage.vue";
 import FechaBoda from "./components/FechaBoda.vue";
 import NosotrosHistoria from "./components/NosotrosHistoria.vue";
+import LugarEvento from "./components/LugarEvento.vue";
+import FormularioAsistencia from "./components/FormularioAsistencia.vue";
+import FooterWeb from "./components/FooterWeb.vue";
 
 export default {
   name: "App",
   components: {
     HomePage,
     FechaBoda,
-    NosotrosHistoria
+    NosotrosHistoria,
+    LugarEvento,
+    FormularioAsistencia,
+    FooterWeb
   },
 };
 </script>

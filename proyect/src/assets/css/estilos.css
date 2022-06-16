@@ -85,8 +85,8 @@ nav li{
     padding: 0;
     right: 0;
     top: 0;
-    width: 48px;
-    height: 48px;
+    width:50px;
+    height: 50px;
     }
 .contenidoNavResponsive{
     display:none;
@@ -96,37 +96,33 @@ nav li{
     .contenidoNavegacion{
         display:none;
     }
-    .contenidoNavResponsive{
-        display:block;
-    }
-    
-    .contenidoNavResponsive input[type="checkbox"] {
-        opacity: 0;
-    }
     
     .contenidoNavResponsive {
         color:#171c18;
         position: relative;
         background-color:#fef9f6;
-        min-height: 48px;
+        min-height: 40px;
         font-family: "ovo";
         display:block;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 5px;
+        margin-right: 10px;
         
+    }
+    .contenidoNavResponsive input[type="checkbox"] {
+        opacity: 0;
     }
     a:link, a:visited, a:active {
         text-decoration:none;
         color:#171c18;
         font-family: "ovo";
-        font-size: 1.5vw;
+        font-size: 2vw;
     }
     a:hover{
         color:cadetblue;
         text-decoration:none;
         color:#171c18;
         font-family: "ovo";
-        font-size: 1.5vw;
+        font-size: 2vw;
     }
     
     .contenidoNavResponsive nav {
@@ -159,13 +155,14 @@ nav li{
     }
 }
 
-
 /*Component FechaBoda*/
 .fecha {
+    padding-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    padding-bottom: 20px;
     font-family: "ovo";
-    font-size: 2vw;
+    font-size: 1vw;
     color: #fef9f6;
     text-align: center;
     background-color: #171c18;
@@ -188,3 +185,5 @@ nav li{
     color: #fef9f6;
 
 }
+
+/*Component NosotrosHistoria*/
