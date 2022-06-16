@@ -1,0 +1,190 @@
+/*fonts*/
+@font-face {
+    font-family: "mistrully";
+    src: url("../fonts/Mistrully.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ovo";
+    src: url("../fonts/Ovo-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*Component HomePage*/
+/*Cover dimensions*/
+html,
+body {
+    height: 100%;
+}
+nav li{
+    float:right;
+    width:15%;
+    padding:5px;
+    background-color:transparent;
+    border:1px solid transparent;
+    text-align:center;
+    color:#fef9f6;
+    font-family: "ovo";
+    font-size: 0vw;
+    margin-right: 20px;
+
+    
+    }
+    a:link, a:visited, a:active {
+        text-decoration:none;
+        color:#fef9f6;
+        font-family: "ovo";
+        font-size: 1.5vw;
+    }
+    a:hover{
+        color:cadetblue;
+        text-decoration:none;
+        color:#fef9f6;
+        font-family: "ovo";
+        font-size: 1.5vw;
+    }
+
+.cover {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 180px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 50px;
+    background: url("../images/portada.png") center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.cover h1 {
+    font-family: "mistrully";
+    font-size: 5vw;
+    color: #fef9f6;
+}
+/*Navigation styles*/
+.contenidoNavResponsive li{
+    list-style:none;
+    }
+.contenidoNavResponsive a{
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    max-width: 200px;
+    background-color: transparent;
+    font-variant: small-caps;
+    }
+.contenidoNavResponsive input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    top: 0;
+    width: 48px;
+    height: 48px;
+    }
+.contenidoNavResponsive{
+    display:none;
+    }
+
+@media screen and (max-width: 700px) {
+    .contenidoNavegacion{
+        display:none;
+    }
+    .contenidoNavResponsive{
+        display:block;
+    }
+    
+    .contenidoNavResponsive input[type="checkbox"] {
+        opacity: 0;
+    }
+    
+    .contenidoNavResponsive {
+        color:#171c18;
+        position: relative;
+        background-color:#fef9f6;
+        min-height: 48px;
+        font-family: "ovo";
+        display:block;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+    a:link, a:visited, a:active {
+        text-decoration:none;
+        color:#171c18;
+        font-family: "ovo";
+        font-size: 1.5vw;
+    }
+    a:hover{
+        color:cadetblue;
+        text-decoration:none;
+        color:#171c18;
+        font-family: "ovo";
+        font-size: 1.5vw;
+    }
+    
+    .contenidoNavResponsive nav {
+        display: none;
+    }
+    
+    .contenidoNavResponsive input:checked ~ nav {
+        display: block;
+    }
+    
+    .contenidoNavResponsive input:checked ~ .fa-bars {
+        display: none;
+    }
+    
+    .contenidoNavResponsive input:not(:checked) ~ .fa-times {
+        display: none;
+    }
+
+    /*responsive nav*/
+    #hamburguesa{
+        float: right;
+        font-size: 2vw;
+        color: #171c18;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    .contenidoNavResponsive .fa-bars, .respmenu .fa-times {
+        font-size: 48px;
+        pointer-events: none;
+    }
+}
+
+
+/*Component FechaBoda*/
+.fecha {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "ovo";
+    font-size: 2vw;
+    color: #fef9f6;
+    text-align: center;
+    background-color: #171c18;
+    margin-bottom: 50px;
+}
+
+#cita {
+    font-family: "ovo";
+    font-size: 1vw;
+    color: #fef9f6;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+.calculoFecha{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: "ovo";
+    font-size: 1vw;
+    color: #fef9f6;
+
+}

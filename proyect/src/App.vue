@@ -1,19 +1,27 @@
+<!--Principal component-->
 <template>
-  <!--<img alt="Vue logo" src="./assets/logo.png">-->
-  <HomePage msg="Welcome to Your Vue.js App"/>
+  <div class="container-fluid">
+    <HomePage msg="Alejandra" msg2=" y Alejandro"></HomePage>
+    <FechaBoda msgFecha="Faltan..."></FechaBoda>
+    <NosotrosHistoria></NosotrosHistoria>
+  </div>
 </template>
 
 <script>
-import HomePage from './components/HomePage.vue'
+import HomePage from "./components/HomePage.vue";
+import FechaBoda from "./components/FechaBoda.vue";
+import NosotrosHistoria from "./components/NosotrosHistoria.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HomePage
-  }
-}
+    HomePage,
+    FechaBoda,
+    NosotrosHistoria
+  },
+};
 </script>
 
 <style>
-
+@import "./assets/css/estilos.css";
 </style>
