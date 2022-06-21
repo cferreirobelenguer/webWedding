@@ -1,14 +1,18 @@
-/*fonts*/
+
+html{
+    background-color: #FEF9F6;
+}
+    /*fonts*/
 @font-face {
-    font-family: "mistrully";
-    src: url("../fonts/Mistrully.ttf") format("truetype");
+    font-family: "wanderlustLetter";
+    src: url("../fonts/wanderlust.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "ovo";
-    src: url("../fonts/Ovo-Regular.ttf") format("truetype");
+    font-family: "coves";
+    src: url("../fonts/Coves_Light.otf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
@@ -27,24 +31,42 @@ nav li{
     border:1px solid transparent;
     text-align:center;
     color:#fef9f6;
-    font-family: "ovo";
-    font-size: 0vw;
+    font-family: "coves";
+    font-size: 0.05vw;
     margin-right: 20px;
+    text-decoration: none;
 
     
     }
-    a:link, a:visited, a:active {
-        text-decoration:none;
+    a:link{
+        text-decoration: none;
         color:#fef9f6;
-        font-family: "ovo";
+        font-family: "coves";
         font-size: 1.5vw;
+        outline: none;
     }
-    a:hover{
-        color:cadetblue;
-        text-decoration:none;
+    a:visited{
+        text-decoration: none;
         color:#fef9f6;
-        font-family: "ovo";
+        font-family: "coves";
         font-size: 1.5vw;
+        outline: none;
+    }
+    
+    a:active{
+        text-decoration: none;
+        color:#fef9f6;
+        font-family: "coves";
+        font-size: 1.5vw;
+        outline: none;
+    }
+
+    a:hover{
+        text-decoration:none;
+        color:#E2BACE;
+        font-family: "coves";
+        font-size: 1.5vw;
+        outline: none;
     }
 
 .cover {
@@ -62,8 +84,8 @@ nav li{
 }
 
 .cover h1 {
-    font-family: "mistrully";
-    font-size: 5vw;
+    font-family: "wanderlustLetter";
+    font-size: 7vw;
     color: #fef9f6;
 }
 /*Navigation styles*/
@@ -91,6 +113,7 @@ nav li{
 .contenidoNavResponsive{
     display:none;
     }
+    
 
 @media screen and (max-width: 700px) {
     .contenidoNavegacion{
@@ -100,9 +123,9 @@ nav li{
     .contenidoNavResponsive {
         color:#171c18;
         position: relative;
-        background-color:#fef9f6;
+        background-color:#FEF9F6;
         min-height: 40px;
-        font-family: "ovo";
+        font-family: "coves";
         display:block;
         margin-left: 5px;
         margin-right: 10px;
@@ -114,14 +137,13 @@ nav li{
     a:link, a:visited, a:active {
         text-decoration:none;
         color:#171c18;
-        font-family: "ovo";
+        font-family: "coves";
         font-size: 2vw;
     }
     a:hover{
-        color:cadetblue;
+        color:#E2BACE;
         text-decoration:none;
-        color:#171c18;
-        font-family: "ovo";
+        font-family: "coves";
         font-size: 2vw;
     }
     
@@ -161,7 +183,7 @@ nav li{
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 20px;
-    font-family: "ovo";
+    font-family: "coves";
     font-size: 1vw;
     color: #fef9f6;
     text-align: center;
@@ -169,9 +191,9 @@ nav li{
     margin-bottom: 50px;
 }
 
-#cita {
-    font-family: "ovo";
-    font-size: 1vw;
+#frase {
+    font-family: "coves";
+    font-size: 0vw;
     color: #fef9f6;
     margin-left: 50px;
     margin-right: 50px;
@@ -180,10 +202,116 @@ nav li{
 .calculoFecha{
     margin-left: 50px;
     margin-right: 50px;
-    font-family: "ovo";
-    font-size: 1vw;
+    font-family: "coves";
+    font-size: 0vw;
     color: #fef9f6;
 
 }
 
 /*Component NosotrosHistoria*/
+#nosotros{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color:#FEF9F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sobreNosotros{
+    margin-top: 20px;
+    background-color:#FEF9F6;
+    text-align: center;
+
+}
+.tituloNosotros{
+    margin-top: 20px;
+    color: #171c18;
+    text-align: center;
+    font-family: "wanderlustLetter";
+    font-size: 3vw;
+    
+
+}
+.icono{
+    text-align: center;
+    color: #171c18;
+    font-size: 4vw;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.fotoNosotros{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
+.historia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FEF9F6;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+
+}
+.tituloNosotros2{
+    margin-top: 20px;
+    color: #171c18;
+    text-align: center;
+    font-family: "wanderlustLetter";
+    font-size: 3vw;
+    
+}
+.contenido{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #171c18;
+    font-size: 2vw;
+    font-family: "coves";
+}
+.deco1{
+    margin-top: 10px;
+    text-align: right;
+}
+.deco2{
+    margin-top: 40px;
+    text-align: left;
+    margin-bottom: 100px;
+}
+.texto{
+    margin:100px;
+}
+
+@media screen and (max-width: 700px) {
+    .contenido{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-right: 30px;
+        color: #171c18;
+        font-size: 2vw;
+        font-family: "coves";
+    }
+    .texto{
+        margin:50px;
+    }
+
+}
+.pedida{
+    
+    background-image: url('../images/pedida.jpeg');
+
+}
+
+
+

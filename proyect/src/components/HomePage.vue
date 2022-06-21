@@ -23,11 +23,11 @@
             </ul>
             </nav>
   </div>
-  <div class="cover">
+  <div class="cover" >
   
-    <h1 data-aos="zoom-in">{{ msg }}</h1>
+    <h1 ref="portada"  v-on:mouseover="fondoFrase" v-on:mouseleave="fondoFrase2" data-aos="zoom-in">{{ msg }}</h1>
     <br />
-    <h1 data-aos="zoom-in">{{ msg2 }}</h1>
+    <h1 ref="portada3"  v-on:mouseover="fondoFrase3" v-on:mouseleave="fondoFrase23" data-aos="zoom-in">{{ msg2 }}</h1>
     <br />
   </div>
 </template>
@@ -40,5 +40,21 @@ export default {
     msg2: String,
     msg3: String,
   },
+  methods: {
+    //cover effects
+    fondoFrase(){
+              this.$refs.portada.style.color="#E2BACE";
+          },
+    fondoFrase2(){
+              this.$refs.portada.style.color="#fef9f6";
+          },
+  
+    fondoFrase3(){
+              this.$refs.portada3.style.color="#E2BACE";
+          },
+    fondoFrase23(){
+              this.$refs.portada3.style.color="#fef9f6";
+          }
+  }
 };
 </script>

@@ -1,8 +1,8 @@
 <!--Component wedding date-->
 <template>
-  <div class="fecha" id="fecha">
+  <div class="fecha" id="fecha" >
     <br />
-    <div id="cita" data-aos="fade-up">
+    <div id="frase" ref="cita"  v-on:mouseover="fondoFrase" v-on:mouseleave="fondoFrase2" data-aos="fade-up">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"
@@ -69,6 +69,13 @@ export default {
                 fechaBoda=days+"  días   "+hours+"   horas   "+minutes+"   minutos   "+seconds+"   segundos   ";
                 console.log(fechaBoda)
                 return fechaBoda;
+          },
+          //letters effects
+          fondoFrase(){
+              this.$refs.cita.style.color="#E2BACE";
+          },
+          fondoFrase2(){
+              this.$refs.cita.style.color="#fef9f6";
           }
       }
     

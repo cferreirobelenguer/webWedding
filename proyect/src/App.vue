@@ -1,9 +1,9 @@
 <!--Principal component-->
 <template>
   <div class="container-fluid">
-    <HomePage msg="Alejandra" msg2=" y Alejandro"></HomePage>
+    <HomePage  msg="Alejandra" msg2=" y Alejandro"></HomePage>
     <FechaBoda msgFecha="Faltan..."></FechaBoda>
-    <NosotrosHistoria></NosotrosHistoria>
+    <NosotrosHistoria mensage="Erase una vez..." mensage2="Nuestra historia"></NosotrosHistoria>
     <LugarEvento></LugarEvento>
     <FormularioAsistencia></FormularioAsistencia>
     <FooterWeb></FooterWeb>
@@ -18,6 +18,8 @@ import LugarEvento from "./components/LugarEvento.vue";
 import FormularioAsistencia from "./components/FormularioAsistencia.vue";
 import FooterWeb from "./components/FooterWeb.vue";
 
+
+
 export default {
   name: "App",
   components: {
@@ -27,7 +29,7 @@ export default {
     LugarEvento,
     FormularioAsistencia,
     FooterWeb
-  },
+  }
 };
 </script>
 
