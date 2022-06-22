@@ -31,25 +31,28 @@
                             <br>Pero siempre hemos hecho para estar juntos.<br><br>
                             Nuestra pedida de matrimonio fue el 4 de diciembre de 2021...
                             </h6>
+                            
                         </div>
                         <div class="imagen">
                             <img src="../assets/images/foto.png"  class="img-fluid" width="250" height="250">
                         </div>
-        </div>
-            
-            <div class="deco2">
-                <img src="../assets/images/flor2.png"  data-aos="fade-left" class="img-fluid" width="200" height="200">
             </div>
+            
+            <div class="pedidaContainer">
+                <div class="pedidaTexto">
+                    <h1 data-aos="fade-up">Y ella dijo si...</h1>
+                </div>
+                <div class="deco2">
+                    <img src="../assets/images/flor2.png"  data-aos="fade-left" class="img-fluid" width="200" height="200">
+                </div>
+            </div>
+        </div>
+            <div class="pedida" >
+                <br>
+                <br>
+            </div>
+    
 
-        </div>
-        <div class="pedida">
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-        </div>
     </div>
 
 </template>
