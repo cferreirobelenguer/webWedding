@@ -1,13 +1,14 @@
+
 import { createApp } from 'vue'
 import App from './App.vue'
+//Boostrap 5
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap"
+
+
 import AOS from 'aos'
-import 'aos/dist/aos.css'
-
-
-
 AOS.init()
+
 
 
 createApp(App).mount('#app')

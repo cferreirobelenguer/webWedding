@@ -20,6 +20,8 @@ import FooterWeb from "./components/FooterWeb.vue";
 
 
 
+
+
 export default {
   name: "App",
   components: {

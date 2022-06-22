@@ -7,8 +7,25 @@
         <div class="icono" data-aos="fade-right">
             <img src="../assets/images/flor4.png" class="img-fluid" width="200" height="200">
         </div>
-        <div class="fotoNosotros">
-            <img src='../assets/images/nosotros.gif' class="img-fluid" width="600" height="600">
+        <div class="fotoNosotros" >
+        
+            <div class="card" style="width: 25vw;" id="alejandra">
+                <img src="../assets/images/alejandra.png" id="fotoAlejandra" width="300" heigth="300" class="card-img-top" alt="images">
+                <div class="card-body" id="estilosCaja">
+                    <h5 class="card-title" id="tituloNovios">Alejandra</h5>
+                    <p class="card-text" id="descripcionNovios">Hola, soy Alejandra ...</p>
+                </div>
+            
+            </div>
+            <div class="card" style="width: 25vw;" id="alejandro">
+                <img src="../assets/images/alejandro.png" width="300" heigth="300" class="card-img-top" alt="images">
+                <div class="card-body" id="estilosCaja">
+                    <h5 class="card-title" id="tituloNovios">Alejandro</h5>
+                    <p class="card-text" id="descripcionNovios">Hola, soy Alejandro ...</p>
+                </div>
+            
+            
+            </div>
         </div>
         <div class="historia">
             <div class="subtitulo">
@@ -45,6 +62,7 @@
                 <div class="deco2">
                     <img src="../assets/images/flor2.png"  data-aos="fade-left" class="img-fluid" width="200" height="200">
                 </div>
+
             </div>
         </div>
             <div class="pedida" >
