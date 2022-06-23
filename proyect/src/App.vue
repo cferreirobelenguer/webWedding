@@ -4,7 +4,8 @@
     <HomePage  msg="Alejandra" msg2=" y Alejandro"></HomePage>
     <FechaBoda msgFecha="Faltan..."></FechaBoda>
     <NosotrosHistoria mensage="Erase una vez..." mensage2="Nuestra historia"></NosotrosHistoria>
-    <LugarEvento></LugarEvento>
+    <LugarEvento mensageEvento="Lugar de celebracion"></LugarEvento>
+    <PasosBoda mensagePasos="Estos son los pasos a seguir..."></PasosBoda>
     <FormularioAsistencia></FormularioAsistencia>
     <FooterWeb></FooterWeb>
   </div>
@@ -17,10 +18,7 @@ import NosotrosHistoria from "./components/NosotrosHistoria.vue";
 import LugarEvento from "./components/LugarEvento.vue";
 import FormularioAsistencia from "./components/FormularioAsistencia.vue";
 import FooterWeb from "./components/FooterWeb.vue";
-
-
-
-
+import PasosBoda from "./components/PasosBoda.vue";
 
 export default {
   name: "App",
@@ -28,6 +26,7 @@ export default {
     HomePage,
     FechaBoda,
     NosotrosHistoria,
+    PasosBoda,
     LugarEvento,
     FormularioAsistencia,
     FooterWeb
