@@ -29,20 +29,18 @@
 </nav>
   </div>
   <div class="cover" >
-  
-    <h1 ref="portada"  v-on:mouseover="fondoFrase" v-on:mouseleave="fondoFrase2" data-aos="zoom-in">{{ msg }}</h1>
-    <br />
-    <h1 ref="portada3"  v-on:mouseover="fondoFrase3" v-on:mouseleave="fondoFrase23" data-aos="zoom-in">{{ msg2 }}</h1>
-    <br />
+    <img src="../assets/images/portada.png" width="1000" height="1000" class="img-fluid" alt="portada"/>
   </div>
+
 </template>
 
 <script>
+
 export default {
+  
   name: "HomePage",
   props: {
-    msg: String,
-    msg2: String,
+    
     msg3: String,
   },
   methods: {

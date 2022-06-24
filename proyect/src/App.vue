@@ -1,7 +1,7 @@
 <!--Principal component-->
 <template>
   <div class="container-fluid">
-    <HomePage  msg="Alejandra" msg2=" y Alejandro"></HomePage>
+    <HomePage></HomePage>
     <FechaBoda msgFecha="Faltan..."></FechaBoda>
     <NosotrosHistoria mensage="Erase una vez..." mensage2="Nuestra historia"></NosotrosHistoria>
     <LugarEvento mensageEvento="Lugar de celebracion"></LugarEvento>
