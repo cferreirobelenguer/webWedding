@@ -29,7 +29,8 @@
 </nav>
   </div>
   <div class="cover" >
-    <img src="../assets/images/portada.png" width="1000" height="1000" class="img-fluid" alt="portada"/>
+    <img src="../assets/images/portada.gif" width="2000" height="2000" class="img-fluid" alt="portada"/>
+  
   </div>
 
 </template>

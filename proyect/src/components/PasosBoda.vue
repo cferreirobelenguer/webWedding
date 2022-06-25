@@ -1,6 +1,6 @@
 <!--stepper-->
 <template>
-    <div id="asistencia">
+    <div id="asistencia2">
         <div class="sobreNosotros" data-aos="fade-up">
             <h1 class="tituloNosotros">{{ mensagePasos }}</h1>
         </div>

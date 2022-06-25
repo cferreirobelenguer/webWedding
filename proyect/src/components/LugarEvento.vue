@@ -50,6 +50,12 @@
                     La ceremonia comienza<br>a las 12:00</h6>
                 </div>
             </div>
+            
+                <br>
+                <br>
+                <br>
+                <br>
+            
             <div class="salones" >
                 <div style="width: 50%">
                     <iframe width="200" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=calle%20chaparral%2022%20villaca%C3%B1as%20toledo+(Mi%20nombre%20de%20egocios)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/car-satnav-gps/">Car GPS</a>

@@ -194,6 +194,7 @@
   background-color: #FFAECC;
   border-color: #FFAECC;
   display: inline;
+  font-size: 1.5vw;
 }
 
 .boton:disabled {
@@ -206,5 +207,7 @@
   border-color: #FFAECC;
   color: #1c1719;
   display: inline;
+  font-size: 1.5vw;
+  text-align: center;
 }
 /*# sourceMappingURL=stepper.css.map */

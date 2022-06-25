@@ -23,9 +23,6 @@
         />
         <div class="card-body" id="estilosCaja">
           <h5 class="card-title" id="tituloNovios">Alejandra</h5>
-          <p class="card-text" id="descripcionNovios">
-            Hola, soy Alejandra ...
-          </p>
         </div>
       </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <div class="card" style="width: 25vw" id="alejandro">
@@ -38,9 +35,6 @@
         />
         <div class="card-body" id="estilosCaja">
           <h5 class="card-title" id="tituloNovios">Alejandro</h5>
-          <p class="card-text" id="descripcionNovios">
-            Hola, soy Alejandro ...
-          </p>
         </div>
       </div>
     </div>
