@@ -5,6 +5,7 @@
   border-radius: 32px;
   -webkit-box-shadow: #FFAECC;
           box-shadow: #FFAECC;
+  padding-left: 50px;
 }
 
 .stepper {
