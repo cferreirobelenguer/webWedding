@@ -54,26 +54,29 @@
       <div class="contenido">
         <div class="texto">
           <h6>
-            El destino hizo que nos conociéramos el 15 de agosto de 2015<br /><br />
-            Nuestra primera cita fue el 3 de octubre de 2015<br /><br />
-            Nos independizamos el 13 de marzo de 2020<br /><br />
-            A lo largo de toda nuestra relación hemos ido superando baches<br /><br />
-            y objetivos...eso ha llevado a que muchas veces tuviéramos una<br />
-            relación a distancia.
-            <br />Pero siempre hemos hecho para estar juntos.<br /><br />
-            Nuestra pedida de matrimonio fue el 4 de diciembre de 2021...
+            Todo empezó un 15 de agosto de 2015 "Nuestra primera cita", aunque no lo supiéramos ese día iba a empezar nuestra historia.<br>
+            Durante estos 7 años, hemos vivido momentos de cambios, consiguiendo objetivos juntos y superando todas las etapas difíciles en la que la distancia no ha sido impedimento. <br>
+            El 4 de diciembre de 2021 fue le pedida, una noche que recordaremos toda nuestra vida, iba a avanzar nuestra historia un paso más.<br>
           </h6>
         </div>
-        <div class="imagen">
+        <div class="imagen2">
           <img
-            src="../assets/images/foto.png"
+            src="../assets/images/historia.jpg"
             class="img-fluid"
-            width="250"
-            height="250"
+            width="800"
+            height="800"
           />
         </div>
+        
       </div>
-
+  <div class="imagen">
+          <img
+            src="../assets/images/foto.jpg"
+            class="img-fluid"
+            width="300"
+            height="300"
+          />
+        </div>
       <div class="pedidaContainer">
         <div class="pedidaTexto">
           <h1 class="tituloNosotros" data-aos="fade-up">¡Y ella dijo si!</h1>
