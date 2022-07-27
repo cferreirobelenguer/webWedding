@@ -8,6 +8,22 @@
   <link rel="icon" href="<%= BASE_URL %>favicon.ico">
   <title><%= htmlWebpackPlugin.options.title %></title>
 </head>
+<style>
+  df-messenger {
+    /*color de fondo del mensaje del bot*/
+    --df-messenger-bot-message: #fceef2;
+    /*color del botón de inicio del chat*/
+    --df-messenger-button-titlebar-color: #FEB8BF;
+    /*Color de fondo del chat*/
+    --df-messenger-chat-background-color: #fafafa;
+    /*Color de la fuente del chat*/
+    --df-messenger-font-color: #323C3D;
+    /*El color del ícono de envío en la casilla de entrada de texto*/
+    --df-messenger-send-icon: #fceef2;
+    /*Color de fondo de los mensajes que manda el usuario*/
+    --df-messenger-user-message: #e0bac8;
+  }
+</style>
 
 <body>
   <noscript>
@@ -15,8 +31,15 @@
       Please enable it to continue.</strong>
   </noscript>
   <div id="app"></div>
-  <!-- built files will be auto injected -->
-  
+  <!-- Dialog flow agent-->
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <df-messenger
+    intent="WELCOME"
+    chat-icon="https://i.pinimg.com/originals/69/7c/3e/697c3e1106c1508096965049a1181f0f.jpg"
+    chat-title="Bot"
+    agent-id="c30c35f0-416d-4ff2-a2cb-3c7c005eec03"
+    language-code="es"
+  ></df-messenger>
 </body>
 
 </html>

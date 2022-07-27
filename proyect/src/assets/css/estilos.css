@@ -27,6 +27,7 @@ body {
     background-color:#FEF9F6;
     font-family: "coves";
     font-size: 2vw;
+    position:static
 }
 .cover {
     margin:0;
