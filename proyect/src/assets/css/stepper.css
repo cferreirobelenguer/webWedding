@@ -3,8 +3,8 @@
   background-color: #FEF9F6;
   padding: 30px;
   border-radius: 32px;
-  -webkit-box-shadow: #FFAECC;
-          box-shadow: #FFAECC;
+  -webkit-box-shadow: #f8e4ea;
+          box-shadow: #f8e4ea;
   padding-left: 50px;
 }
 
@@ -27,7 +27,7 @@
 
 .stepper-progress {
   position: absolute;
-  background-color: #fcc6f3;
+  background-color: #f8e4ea;
   height: 2px;
   z-index: -1;
   left: 0;
@@ -39,7 +39,7 @@
   position: absolute;
   height: 100%;
   width: 0%;
-  background-color: #FFAECC;
+  background-color: #f8e4ea;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -70,7 +70,7 @@
   place-items: center;
   background-color: #FEF9F6;
   border-radius: 100%;
-  border: 2px solid #FFAECC;
+  border: 2px solid  #f8e4ea;
   position: relative;
 }
 
@@ -83,7 +83,7 @@
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   background-color: #FEF9F6;
-  color: #FFAECC;
+  color: #f8e4ea;
 }
 
 .stepper-item-counter .number {
@@ -102,8 +102,8 @@
 }
 
 .stepper-item.success .stepper-item-counter {
-  border-color: #FFAECC;
-  background-color: #FFAECC;
+  border-color: #f8e4ea;
+  background-color: #f8e4ea;
   color: #0e0d0d;
   font-weight: 600;
 }
@@ -112,7 +112,7 @@
   opacity: 0.10;
   -webkit-transform: scale(1);
           transform: scale(1);
-  background-color: #FEF9F6;
+  background-color: #f8e4ea;
 }
 
 .stepper-item.success .stepper-item-counter .number {
@@ -125,13 +125,13 @@
 }
 
 .stepper-item.success .stepper-item-tittle {
-  color: #FFAECC;
+  color: #f8e4ea;
   font-size: 2vw;
 }
 
 .stepper-item.current .stepper-item-counter {
-  border-color: #FFAECC;
-  background-color: #FFAECC;
+  border-color: #f8e4ea;
+  background-color: #f8e4ea;
   color: #0e0d0d;
   font-weight: 600;
 }
@@ -192,8 +192,8 @@
   width: fit-content;
   font-size: 2vw;
   color: #1c1719;
-  background-color: #FFAECC;
-  border-color: #FFAECC;
+  background-color: #f8e4ea;
+  border-color: #f8e4ea;
   display: inline;
   font-size: 1.5vw;
 }
@@ -204,8 +204,8 @@
 }
 
 .boton--pink-1 {
-  background-color: #FFAECC;
-  border-color: #FFAECC;
+  background-color: #f8e4ea;
+  border-color: #f8e4ea;
   color: #1c1719;
   display: inline;
   font-size: 1.5vw;

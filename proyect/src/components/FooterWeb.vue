@@ -1,5 +1,6 @@
 <template>
   <div class="footContainer">
+  
     <div id="footer">
       <div class="email">
         <svg
@@ -45,7 +46,7 @@
       </div>
       <div class="diseno">
         <small>
-          Diseñado y desarrollado por Carolina con mucho
+          Diseñado y desarrollado por Carolina<br>con mucho
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -65,6 +66,7 @@
   </div>
 </template>
 <script>
+
 export default {
   name: "FooterWeb",
 };

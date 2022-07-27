@@ -20,6 +20,7 @@ import FormularioAsistencia from "./components/FormularioAsistencia.vue";
 import FooterWeb from "./components/FooterWeb.vue";
 import PasosBoda from "./components/PasosBoda.vue";
 
+
 export default {
   name: "App",
   components: {

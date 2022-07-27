@@ -14,7 +14,8 @@
                 />
         </div>
         <div class="formulario">
-            <form v-on:submit.prevent="recibirFormulario()">
+            <div className="datos">
+                    <form v-on:submit.prevent="recibirFormulario()">
                 <div class="row g-3 align-items-center">
                     <div class="col-auto">
                         <label for="nombre" class="form-label">Nombre</label>
@@ -62,7 +63,8 @@
                 <button type="reset" class="boton boton--pink-1">Limpiar</button>
             </form>
 
-
+            </div>
+            
         </div>
     </div>
     </div>

@@ -5,7 +5,7 @@
     background-color:#FEF9F6;
     padding: 30px;
     border-radius: 32px;
-    box-shadow: #FFAECC;
+    box-shadow:  #f8e4ea;
     padding-left: 50px;
 
 }
@@ -21,7 +21,7 @@
 
     &-progress{
         position:absolute;
-        background-color: #fcc6f3;
+        background-color:  #f8e4ea;
         height: 2px;
         z-index:-1;
         left:0;
@@ -32,7 +32,7 @@
         position: absolute;
         height: 100%;
         width: 0%;
-        background-color: #FFAECC;
+        background-color:  #f8e4ea;
         transition: all 500ms ease;
     }
 }
@@ -54,7 +54,7 @@
         place-items: center;
         background-color: #FEF9F6;
         border-radius: 100%;
-        border: 2px solid #FFAECC;
+        border: 2px solid  #f8e4ea;
         position: relative;
 
         .icon-success{
@@ -64,7 +64,7 @@
             width: 8vw;
             transition: all 500ms ease;
             background-color: #FEF9F6;
-            color:#FFAECC
+            color: #f8e4ea
         }
         .number{
             
@@ -83,15 +83,15 @@
 }
 .stepper-item.success{
     .stepper-item-counter{
-        border-color: #FFAECC;
-        background-color:#FFAECC;
+        border-color:  #f8e4ea;
+        background-color: #f8e4ea;
         color:rgb(14, 13, 13);
         font-weight: 600;
 
         .icon-success{
             opacity:0.10;
             transform:scale(1);
-            background-color: #FEF9F6;
+            background-color: #f8e4ea;
             
         }
         .number{
@@ -104,14 +104,14 @@
 
     }
     .stepper-item-tittle{
-        color: #FFAECC;
+        color:  #f8e4ea;
         font-size: 2vw;
     }
 }
 .stepper-item.current{
     .stepper-item-counter{
-        border-color: #FFAECC;
-        background-color:#FFAECC;
+        border-color:  #f8e4ea;
+        background-color: #f8e4ea;
         color:rgb(14, 13, 13);
         font-weight: 600;
     }
@@ -157,8 +157,8 @@
     width: fit-content;
     font-size: 2vw;
     color: #1c1719;
-    background-color:#FFAECC;
-    border-color: #FFAECC;
+    background-color: #f8e4ea;
+    border-color:  #f8e4ea;
     display: inline;
     font-size: 1.5vw;
     
@@ -167,8 +167,8 @@
         pointer-events: none;
     }
     &--pink-1{
-        background-color:#FFAECC;
-        border-color: #FFAECC;
+        background-color: #f8e4ea;
+        border-color:  #f8e4ea;
         color: #1c1719;
         display: inline;
         font-size: 1.5vw;
