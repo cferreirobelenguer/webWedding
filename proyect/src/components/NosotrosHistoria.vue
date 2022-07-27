@@ -49,7 +49,7 @@
           <h6>
             Todo empezó un 15 de agosto de 2015 "Nuestra primera cita", aunque no lo supiéramos ese día iba a empezar nuestra historia.<br>
             Durante estos 7 años, hemos vivido momentos de cambios, consiguiendo objetivos juntos y superando todas las etapas difíciles en la que la distancia no ha sido impedimento. <br>
-            El 4 de diciembre de 2021 fue le pedida, una noche que recordaremos toda nuestra vida, iba a avanzar nuestra historia un paso más...<br>
+            El 4 de diciembre de 2021 fue una noche que recordaremos toda nuestra vida, iba a avanzar nuestra historia un paso más...<br>
           </h6>
         </div>
         <div class="imagen2">
