@@ -28,7 +28,8 @@
                 </div>
                 <div class="descripcionIglesia">
                     <h6>c/Iglesia, 15, 45350<br>
-                    Noblejas, Toledo</h6>
+                    Noblejas, Toledo.<br>
+                    La ceremonia comienza<br>a las 12:00</h6>
                 </div>
             </div>
                 <div class="iglesia">
@@ -47,8 +48,8 @@
                 </div>
                 <div class="descripcionSalon">
                     <h6>c/Chaparral, 22, 45860<br>
-                    Villacañas, Toledo<br>
-                    La ceremonia comienza<br>a las 12:00</h6>
+                    Villacañas, Toledo<br></h6>
+    
                 </div>
             </div>
             
@@ -69,8 +70,8 @@
                 <img
                 src="../assets/images/juntos.gif"
                 class="img-fluid"
-                width="500"
-                height="500"
+                width="600"
+                height="600"
             />
         </div>
         </div>

@@ -15,7 +15,7 @@
     <div class="fotoNosotros">
         <div class="card" style="width: 50vw" id="alejandra">
           <img
-            src="../assets/images/alejandra.jpg"
+            src="../assets/images/alejandra.gif"
             id="fotoAlejandra"
             width="1000"
             heigth="1000"
@@ -68,7 +68,7 @@
           <img
             src="../assets/images/foto.jpg"
             class="img-fluid"
-            width="450"
+            width="350"
             height="350"
           />
         </div>
