@@ -14,8 +14,8 @@
         </div>
         
         <div class="intro">
-            <h6>Os invitamos a nuestra boda el día 5 de noviembre del 2022<br> en la parroquia Santiago Apostol en Noblejas a las 12:00, <br>
-            posteriormente el convite será en los jardines del palacio Villacañas.</h6>
+            <h6>Os invitamos a nuestra boda el día 5 de noviembre del 2022<br> la ceremonia será en la parroquia Santiago Apostol en Noblejas a las 12:00, <br>
+            posteriormente la celebración será en los jardines de palacio Villacañas.</h6>
         </div>
         <div className="containerLugar">
         <div class="infoCeremonia">
