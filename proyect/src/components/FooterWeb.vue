@@ -17,8 +17,8 @@
         </svg>
         <br />
         <br />
-        <p>alejandraferreiro40@gmail.com</p>
-        <p>alejandroamoresdiaz@gmail.com</p>
+        <p>axxxx40@gmail.com</p>
+        <p>xxxxx@gmail.com</p>
       </div>
       <div class="telefono">
         <svg
@@ -36,8 +36,8 @@
         </svg>
         <br />
         <br />
-        <p>657029169</p>
-        <p>608900477</p>
+        <p>xxxxx</p>
+        <p>xxxxx</p>
       </div>
     </div>
     <div class="copyright">
