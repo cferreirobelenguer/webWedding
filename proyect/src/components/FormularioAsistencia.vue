@@ -54,6 +54,8 @@
                     </div>
                 </div>
                 <br>
+                <small>Rellenar un asistente por formulario</small>
+                <br>
                 <br>
                 
                 <button type="submit" class="boton boton--pink-1">Submit</button>
